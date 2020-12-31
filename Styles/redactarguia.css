@@ -1,0 +1,196 @@
+body{
+    background: linear-gradient(#141e30, #243b55);
+    font-family: sans-serif;
+    margin: 0px;   
+}
+
+div.zonaderedaccion{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,.3);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 5px;
+    
+}
+div.zonaderedaccion H1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+div.titulo-categorias p{
+    color: white;
+    font-size: 26px;
+}
+
+div.titulo-categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+div.titulo-categorias input{
+    color: white;
+    background: none;
+    border:none;
+    border-bottom: 1px solid white;
+    height: 20px;
+    margin-left: 15px;
+    width: 150px;
+}
+
+div.input1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.input2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.texto-edicion{
+    padding-left:10px ;
+    padding-right:10px ;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.texto-edicion textarea{
+    color: white;
+    background-color: rgba(0,0,0,.3);
+    border: none;
+    width: 100%;
+    resize: none;
+    height: 100%;
+    border-radius:10px;
+    border: 1px solid white;
+    
+}
+
+div.editor{
+    width:8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 99%;
+    border: 1px solid white;
+    align-content: flex-start;
+    border-radius: 0px 10px 10px 0px;
+}
+
+div.editor button{
+    margin: 0px;
+}
+
+div.editor button{
+    margin: 0px;
+    width: 50%;
+    height: 20%;
+    background: none;
+    color:white;
+    border:none;
+}
+
+div.boton-subir{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.boton-subir p{
+    margin-left: 20px;
+}
+
+div.boton-subir button{
+    border: 1px solid white ;
+    border-radius: 20px;
+    color: white;
+    background: rgba(0,0,0,0);
+    transition: 1s;
+    font-size :14px;
+    width: 10%;
+    height: 25px;
+    margin-top:10px;
+    margin-right: 12px;
+}
+div.boton-subir button:hover{
+    background:rgba(0,212,255,1);
+    color:black;
+    border:none;
+    font-weight: 500;
+}
+
+/*============================================< Segunda Parte >============================================*/
+
+div.descripcion{
+    display:none;
+    flex-direction: column;
+    background: rgba(0,0,0,.3);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+div.descripcion h2{
+   text-align: center;
+}
+
+div.descripcion p{
+    color: white;
+}
+
+div.descripcion textarea{
+    color: white;
+    background: rgba(0,0,0,.3);
+    border-radius: 10px;
+    border:1px solid white;
+    resize: none;
+    width: 100%;
+    height: 200px;
+}
+
+div.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.botones button{
+    border: 1px solid white ;
+    border-radius: 20px;
+    color: white;
+    background: rgba(0,0,0,0);
+    transition: 1s;
+    font-size :14px;
+    width: 10%;
+    height: 25px;
+    margin-top:10px;
+    margin-right: 12px;
+}
+
+div.botones button:hover{
+    background:rgba(0,212,255,1);
+    color:black;
+    border:none;
+    font-weight: 500;
+}

@@ -1,0 +1,128 @@
+div.cuerpo{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+}
+
+div.miniaturas{
+    color: white;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80%;
+    width: 70%;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+
+body{
+    background: linear-gradient(#141e30, #243b55);
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+
+
+
+/* ================================================== */
+div.cuerpo{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+}
+
+div.categorias a{
+    text-decoration: none;
+    color: white;
+}
+
+div.Opciones {
+    width: 600px;
+    height: 350px;
+    background-color:rgba(0,0,0,6);
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 50px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    color: white;
+    display: none;
+}
+
+div.Opciones hr#izq{
+    width: 250px;
+    position: absolute;
+    top:175px;
+    left: 20px;
+}
+
+
+div.Opciones button#arriba{
+    width: 300px;
+    height: 45px;
+    align-self: center;
+    position: relative;
+    top: 80px;
+    border: 1px solid white ;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    background: rgba(0,0,0,0);
+    transition: 1s;
+}
+
+div.Opciones button#arriba:hover{
+    background:rgba(0,212,255,1);
+    color:black;
+    border:none;
+    font-weight: 500;
+}
+div.Opciones h3{
+    position: relative;
+    top:110px;
+}
+div.Opciones hr#der{
+    width: 250px;
+    position: absolute;
+    top:175px;
+    right: 20px;
+
+}
+
+div.Opciones button#abajo{
+    width: 300px;
+    height: 45px;
+    align-self: center;
+    position: relative;
+    top: 135px;
+    border: 1px solid white ;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    background: rgba(0,0,0,0);
+    transition: 1s;
+}
+
+div.Opciones button#abajo:hover{
+    background:rgba(0,212,255,1);
+    color:black;
+    border:none;
+    font-weight: 500;
+}
+div.Opciones a{
+    text-decoration: none;
+    color: white;
+}
+
+div.Opciones button#cerrar{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+

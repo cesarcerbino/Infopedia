@@ -1,0 +1,193 @@
+body{
+    background: linear-gradient(#141e30, #243b55);
+    font-family: sans-serif;
+    margin: 0px;
+
+}
+div.Cajaprincipal hr{
+    width: 70%;
+    position: absolute;
+    top: 120px;
+    left: 291px;
+    margin: 0px;
+}
+div.Cajaprincipal{
+    width: 90%;
+    height: 88%;
+    position: relative;
+    top: -27px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0,0,0,.5);
+    color:white;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+div.Cajaprincipal  h1{
+    position: relative;
+    top:35px;
+    left: 10px;
+    font-size: 45px;
+}
+
+div.Cajaprincipal p{
+    font-size: 26px;
+    position: relative;
+    left: 20px;
+}
+div.Cajaprincipal input{
+    background:rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid white;
+    width: 350px;
+    height: 25px;
+    position:relative;
+    left: 20px;
+    margin: -10;
+    color: white;
+}
+
+
+div.Titulo textarea{
+    position:relative;
+    left: 38px;
+    margin: -10;
+    color: white;
+    resize:none;
+    background:rgba(0,0,0,0);
+    border: 1px solid white;
+    height:30px ;
+    font-size: 20px;
+    overflow: hidden;
+}
+div.Titulo textarea:hover{
+    border: 1px solid white;
+}
+
+div.Texto p{
+    font-size: 26px;
+    position: relative;
+    left: 20px;
+}
+div.Texto textarea{
+    background:rgba(0,0,0,0);
+    border: 1px solid white;
+    width: 80%;
+    position:relative;
+    height:50% ;
+    margin: -10;
+    color: white;
+    resize:none;
+    left: 38px;
+}
+
+
+/* ======================= BOTON =================== */
+div.Cajaprincipal button#cargar{
+    width: 200px;
+    height: 35px;
+    align-self: center;
+    position: relative;
+    top: 25px;
+    left: 30px;   
+    border: 1px solid white ;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    background: rgba(0,0,0,0);
+    transition: 0.6s;
+    font-weight: 600 ;
+    text-align: center;
+}
+div.Cajaprincipal button#cargar:hover{
+    background:rgba(0,212,255,1);
+    color:black;
+    border:none;
+    font-weight: 600;
+    
+}
+
+/* ======================= EDITOR DE TEXTO =================== */
+
+div.EditorDetexto{
+    border: 2px solid white;
+    width: 100px;
+    height: 50%;
+    position: absolute;
+    top:222px;
+    left: 86%;
+    border-radius: 10px;
+    margin: 0px;
+}
+div.EditorDetexto i{
+    margin:0px;
+}
+
+div.EditorDetexto button#izquierda{
+    height: 50px;
+    width: 50%;
+    background-color:rgba(0,0,0,0);
+    color:white;
+    border:none;
+    border-bottom:1px solid white;
+    border-right:1px solid white ;
+    margin: 0px;
+}
+div.Cajaprincipal button#izquierda:hover{
+    border:3px solid;
+    border-color:rgba(0,212,255,1);
+    border-radius: 10px 0px 0px 0px;
+    
+}
+
+div.EditorDetexto button#centrar{
+    height: 50px;
+    width: 50%;
+    background-color:rgba(0,0,0,0);
+    color:white;
+    border:none;
+    border-bottom:1px solid white;
+    border-left:1px solid white ;
+    margin: 0px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+div.EditorDetexto button#centrar:hover{
+    border:3px solid;
+    border-color:rgba(0,212,255,1);
+    border-radius: 0px 10px 0px 0px;
+}
+
+
+div.EditorDetexto button{
+    height: 50px;
+    width: 50%;
+    background-color:rgba(0,0,0,0);
+    color:white;
+    border:none;
+    border:1px solid white;
+    margin: 0px;
+    position: relative;
+    top:0px;
+}
+div.EditorDetexto button:hover{
+    border:3px solid;
+    border-color:rgba(0,212,255,1);
+}
+
+div.EditorDetexto button#ultimo{
+    height: 40px;
+    width: 100%;
+    background-color:rgba(0,0,0,0);
+    color:white;
+    border:none;
+    margin: 0px;
+    position: relative;
+}
+div.EditorDetexto button#ultimo:hover{
+    border:3px solid;
+    border-color:rgba(0,212,255,1);
+    border-radius: 0px 0px 10px 10px;
+}

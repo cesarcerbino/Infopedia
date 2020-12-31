@@ -1,0 +1,59 @@
+div.zonaderedaccion2{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,.3);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.zonaderedaccion2 H1{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+textarea{
+    color: white;
+    background-color: rgba(0,0,0,.3);
+    border: none;
+    width: 100%;
+    resize: none;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+div.button-subir{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.button-subir button{
+    border: 1px solid white ;
+    border-radius: 20px;
+    color: white;
+    background: rgba(0,0,0,0);
+    transition: 1s;
+    font-size :14px;
+    width: 12%;
+    height: 30px;
+    margin-top:10px;
+
+}
+div.button-subir button:hover{
+    background:rgba(0,212,255,1);
+    color:black;
+    border:none;
+    font-weight: 500;
+}
+

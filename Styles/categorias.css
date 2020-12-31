@@ -1,0 +1,43 @@
+
+div.Cajacategorias {
+    width: 15%;
+    height: 88%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 60px;
+    height: 90%;
+}
+
+
+div.CATTI{
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+div.CATTI p{
+    top: 3px;
+    position: relative;
+}
+
+
+div.categorias{
+    background-color: rgba(0,0,0,.3);
+    height: 90%;
+    width: 100%;
+    color: white;
+   
+   
+}
+
+
+ div.categorias a#seleccionado{
+    color:rgba(0,212,255,1); 
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}

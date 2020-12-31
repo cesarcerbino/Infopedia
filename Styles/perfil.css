@@ -1,0 +1,69 @@
+div.perfildisplay{
+    margin-top:5%;
+    border-radius: 25px;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.%;
+    background-color:rgba(0,0,0,.3);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: white;
+}
+
+div.img-nom{
+    text-transform: lowercase;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+
+div.perfildisplay hr{
+    width: 100%;
+    color: white;
+    background-color: white;
+}
+
+div.perfildisplay h2{
+    color: white;
+    text-align: center;
+
+}
+
+div.perfildisplay p{
+    color:white;
+    font-size: 24px;
+    text-align:left;
+    margin:0px;
+    margin-left:10px;
+    font-family: serif;
+    text-transform: capitalize;
+}
+
+
+div.historial h2{
+    color: white;
+    text-align: center;
+
+}
+
+div.historial{
+    margin-top:2%;
+    border-radius: 25px;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-right: 12.%;
+    /*background-color:rgba(0,0,0,.3);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);*/
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: white;
+}

@@ -1,0 +1,151 @@
+
+div.cuerpov2{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.subircomentario {
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:20px;
+    margin-bottom:10px;
+    color:white;
+    border-radius:5px;
+    padding:5px;
+    background-color: rgba(0,0,0,0.3);
+    height: 140px;
+    padding: 5px;
+}
+div.subircomentario textarea{
+    width: 100%;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 65%;
+    color: white;
+    resize: none;
+}
+div.subircomentario p{
+    margin-top: 5px;
+}
+
+div.subircomentario button{
+    border: 1px solid white ;
+    border-radius: 20px;
+    color: white;
+    background: rgba(0,0,0,0);
+    transition: 1s;
+    font-size :14px;
+    width: 15%;
+    height: 30%;
+    margin-top:10px;
+}
+
+
+div.subircomentario button:hover{
+    background:rgba(0,212,255,1);
+    color:black;
+    border:none;
+    font-weight: 500;
+}
+
+
+
+div.subir{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+div.comentario{
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    margin:5px;
+    border-radius: 5px;
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div.fecha-usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+} 
+
+div.comentario button{
+    background: none;
+    color: white;
+    border:none;
+    height: 30px;
+    justify-self: flex-end;
+}
+
+div.comentario button:hover{
+    color: rgba(0,212,255,1);
+   
+}
+
+div.comentario-boton form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+div.likes{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+div.likes form{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 32px;
+
+}
+
+div.likes form button{
+    background: none;
+    color: white;
+    height: 30px;
+    border:none;
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div.likes form button:hover{
+    color: rgba(0,212,255,1);
+}
+
+div.descarga-likes {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.descarga-likes a {
+    width: 170px;
+    height:20px;
+    text-decoration: none;
+    color:rgba(0,212,255,1);
+}

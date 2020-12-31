@@ -1,0 +1,228 @@
+
+body{
+    background: linear-gradient(#141e30, #243b55);
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+
+div.navegationbar {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+div.navegationbar input{
+    width: 270px;
+    position: relative;
+    height: 30;
+    top: 20px;
+    color: white;
+    background:rgba(0,0,0,0);
+    border: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 0px;
+    border-radius: 12px 0px 0px 12px;
+    text-align: center;
+}
+div.navegationbar button{
+    position: relative;
+    width: 30;
+    height: 30px;
+    top:20px;
+    left: auto;
+    margin: 0px;
+    background: rgba(0,0,0,0);
+    border-radius:0px 12px 12px 0px;
+    border:1px solid white;
+    color: white;
+    transition: 0.4s;
+}
+div.navegationbar i{
+
+color:white;  
+}
+div.navegationbar button:hover{
+    background: rgba(0,212,255,1); 
+    border-radius:0px 12px 12px 0px;
+    color: black;
+    border: 1px solid black;
+    
+}
+
+
+
+
+div.rightbarbig{
+    height:89.7%;
+    background:rgba(0,0,0,.6);
+    width: 200px;
+    position: relative;
+    left: 0%;
+    margin:0px;
+    border-top: 0px solid ;
+    border-left: 1px solid ;
+    border-bottom:1px solid  ; 
+    border-color: white;
+    float: right;
+    display: none;
+}
+
+div.sidebar button.show{
+    background: rgba(0,0,0,0);
+    border: none;
+    display: block;
+    color: white;
+    position: absolute;
+    right: 10px;
+    margin: 0px;
+    top: 22px;
+}
+
+div.sidebar button.hide{
+    background: rgba(0,0,0,0);
+    border: none;
+    color: white;
+    position: absolute;
+    right: 10px;
+    margin: 0px;
+    top: 22px;
+    display: none;
+}
+
+div.rightbarsmall {
+    display: block;
+    height:89.8%;
+    background:rgba(0,0,0,.6);
+    width: 60px;
+    position: relative;
+    left: 0%;
+    margin:0px;
+    border-top: 0px solid ;
+    border-left: 1px solid ;
+    border-color: white;
+    float: right;
+    
+}
+
+/* ================================================== */
+
+div.perfil{
+    border-bottom:1px solid white;
+    height: 60px;
+    color: white;
+    
+}
+div.perfil:hover{
+    color: rgba(0,212,255,1);
+
+}
+
+div.perfil  a{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+
+div.subirguia {
+    height: 60px;
+    border-bottom:1px solid white;
+
+}
+
+div.subirguia button#but1{
+    height: 60px;
+    width: 100%;
+    background:none;
+    border:none;
+    color:white;
+}
+div.subirguia button#but1:hover{
+    color:rgba(0,212,255,1);
+}
+
+div.Opciones {
+    width: 600px;
+    height: 350px;
+    background-color:rgba(0,0,0,6);
+    border-radius: 20px;
+    position: relative;
+    top: 90px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    color: white;
+    display: none;
+}
+
+div.Opciones hr#izq{
+    width: 250px;
+    position: absolute;
+    top:175px;
+    left: 20px;
+}
+
+
+div.Opciones button#arriba{
+    width: 300px;
+    height: 45px;
+    align-self: center;
+    position: relative;
+    top: 80px;
+    border: 1px solid white ;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    background: rgba(0,0,0,0);
+    transition: 1s;
+}
+
+div.Opciones button#arriba:hover{
+    background:rgba(0,212,255,1);
+    color:black;
+    border:none;
+    font-weight: 500;
+}
+div.Opciones h3{
+    position: relative;
+    top:110px;
+}
+div.Opciones hr#der{
+    width: 250px;
+    position: absolute;
+    top:175px;
+    right: 20px;
+
+}
+
+div.Opciones button#abajo{
+    width: 300px;
+    height: 45px;
+    align-self: center;
+    position: relative;
+    top: 135px;
+    border: 1px solid white ;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    background: rgba(0,0,0,0);
+    transition: 1s;
+}
+
+div.Opciones button#abajo:hover{
+    background:rgba(0,212,255,1);
+    color:black;
+    border:none;
+    font-weight: 500;
+}
+div.Opciones a{
+    text-decoration: none;
+    color: white;
+}
+
+div.Opciones button#cerrar{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

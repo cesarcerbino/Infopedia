@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(#141e30, #243b55);
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+div.barraarriba{
+    height: 70px;
+    background: rgba(0,0,0,.6);
+    color: white;
+    top: 0px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+div.barraarriba img{
+    width: 60;
+    height: 60;
+    position: absolute;
+    top: 5;
+    left: 10px;
+}
+
+div.barraarriba p{
+    position: absolute;
+    font-size: 40px;
+    font-family:bold;
+    left: 80px; 
+    margin: 0;
+    top: 14;
+}

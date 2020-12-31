@@ -1,0 +1,91 @@
+div.caja{
+    align-self: center;
+    width: 400px;
+    border: 0px  solid black;
+    margin-left: auto;
+    margin-right: auto;
+    height: 380;
+    background: rgba(0,0,0,.5);
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    position: relative; 
+    top: 60px;
+ 
+}
+
+div.Titulo p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+div.login input{
+    background:rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid white;
+    width: 350px;
+    height: 25px;
+    position:relative;
+    left: 20px;
+    margin: -10;
+    color: white;
+    outline: none;
+    padding-bottom:px;
+}
+div.login p{
+    position: relative;
+    left:14px;
+    padding-bottom:0px;
+    color: white;
+}
+
+div.login button{
+    width: 200px;
+    height: 35px;
+    align-self: center;
+    position: relative;
+    top: 30px;
+    left: 95px;   
+    border: 1px solid white ;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    background: rgba(0,0,0,0);
+    transition: 1s;
+}
+
+div.login button:hover{
+    background:rgba(0,212,255,1);
+    color:black;
+    border:none;
+    font-weight: 500;
+}
+div.login form{
+    position: relative;
+    top: 30px;
+}
+div.login br{
+    width: 80%;
+}
+/*==========================================*/
+div.registro{
+    position:relative;
+    top: 120px;
+    left: 16px;
+    color: white;
+    
+}
+div.registro a{
+    text-decoration: none;
+    color: rgba(0,212,255,1);
+    font-weight: 600;
+}
+
+/*==========================================*/
+body{
+    background: linear-gradient(#141e30, #243b55);
+    font-family: sans-serif;
+    margin: 0px;
+}
